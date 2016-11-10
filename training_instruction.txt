@@ -14,7 +14,7 @@ python training.py [-opt option_val]
   -nlayers  10 (the number of highway layer, should be 10)
   -nmean    1 (the constant z in the paper, should be between 1 and the number of relation types)
   -reg      dr (dr/x. dr means dropout and x means no regularization)
-  -shared   1 (0/1. 0: no parameter sharing among highway layers)
+  -shared   1 (0/1. 1: parameter sharing among highway layers, 0: otherwise)
   -opt      RMS (Adam/RMS. The optimizer)
   -seed     1234 (any value)
   -batch    100 (batch size in the mini_batch training only)
