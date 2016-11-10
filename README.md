@@ -3,7 +3,7 @@ A novel deep learning model for collective classification in multi-relational do
 
 Link to the paper: https://arxiv.org/abs/1609.04508
 
-Training: enter either full_batch or mini_batch folder
+Training: enter either full_batch or mini_batch folder. Before training, you should create 3 folders: log, bestModels and models. log contains training log for each training time. bestModels contains h5df files storing parameters at the epoch of the best validation performance. models contains .json files storing the Keras models.
 
 python training.py [-opt option_val]
 
