@@ -1,6 +1,8 @@
 # Column_networks
 A novel deep learning model for collective classification in multi-relational domains
 
+Link to the paper: https://arxiv.org/abs/1609.04508
+
 Training: enter either full_batch or mini_batch folder
 
 python training.py [-opt option_val]
