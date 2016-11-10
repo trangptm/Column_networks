@@ -16,6 +16,6 @@ python training.py [-opt option_val]
   -reg      dr (dr/x. dr means dropout and x means no regularization)
   -shared   1 (0/1. 1: parameter sharing among highway layers, 0: otherwise)
   -opt      RMS (Adam/RMS. The optimizer)
-  -seed     1234 (any value)
+  -seed     1234 (any value - for reproducing the experiments)
   -batch    100 (batch size in the mini_batch training only)
   -y        1 (in the case of multi-label, e.g., movielens, each label is trained separetely. This option is for choosing what label is trained)
