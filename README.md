@@ -3,4 +3,4 @@ A novel deep learning model for collective classification in multi-relational do
 
 Link to the paper: https://arxiv.org/abs/1609.04508
 
-See training_instruction.txt for running experiments
+See *training_instruction.txt* for running experiments
