@@ -5,6 +5,10 @@ feats is a numpy array, shape = [n_samples, n_feats]
 labels is a numpy array of interger. 
     For single-label classification (pubmed), it is a vector of [n_samples]
     For multi-label classification (movielens), it is a matrix of [n_samples, n_labels] (n_labels = 9 in our data)
+rel_list = [[[ne for ne in neighbors of type r of entity i]
+             for r in all relation types]
+            for i in all entities in the network]
+train_ids, valid_ids, test_ids: each is a list of entity ids.         
 
 Link to download the raw datasets: 
 Pubmed: 
