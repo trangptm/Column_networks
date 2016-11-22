@@ -19,3 +19,12 @@ python training.py [-opt option_val]
   -seed     1234 (any value - for reproducing the experiments)
   -batch    100 (batch size in the mini_batch training only)
   -y        1 (in the case of multi-label, e.g., movielens, each label is trained separetely. This option is for choosing what label is trained)
+
+Example:
+Training the first label of BoW_movielens in full-batch mode: 
+  cd full_batch
+  python training.py -model Highway -data BoW_movielens -dim 40 -nlayers 10 -nmean 3 -y 0
+  
+Training pubmed dataset in mini-batch mode:
+  cd mini_batch
+  python training.py -model Highway -data pubmed -dim 40 -layers 10 -nmean 2 -batch 100
